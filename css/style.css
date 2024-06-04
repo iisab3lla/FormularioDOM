@@ -1,0 +1,147 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+h1{
+    padding: 12px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+form{
+    padding: 12px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+    top: 60px;
+    right: 130px;
+}
+.form-um{
+    width: 40vw;
+    height: 18vh;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 7px;
+}
+.form-dois{
+    width: 40vw;
+    height: 28vh;
+    padding: 12px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 5px;
+}
+button{
+    position: relative;
+    top: 20px;
+    width: 60px;
+    border-radius: 5px;
+    gap: 10px;
+    background-color: rgb(209, 209, 209);
+}
+
+.radio{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    top: 3vh;
+}
+
+.areaDeInteresse{
+    position: relative;
+    top: 5vh;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    top: 50px;
+    gap: 6px;
+}
+
+#naturezaCargo{
+    position: relative;
+    bottom: 3vh;
+    right: 399px;
+    
+}
+
+#titulo-cargo{
+    display: flex;
+    position: relative;
+    right: 328px;
+    
+}
+#cargo-id{
+    display: flex;
+    position: relative;
+    right: 330px;
+}
+#titulo-cargo2{
+    display: flex;
+    position: relative;
+    right: 159px;
+}
+#cargo-id2{
+    display: flex;
+    position: relative;
+    right: 161px;
+}
+#titulo-cargo3{
+    display: flex;
+    position: relative;
+    left: 1vh;
+}
+/* #cargo-id3{
+    display: flex;
+    position: relative;
+    left: 100px;
+} */
+#titulo-cargo4{
+    display: flex;
+    position: relative;
+    left: 205px;
+}
+#cargo-id4{
+    display: flex;
+    position: relative;
+    left: 25vh;
+}
+#titulo-cargo5{
+    display: flex;
+    position: relative;
+    left: 392px;
+}
+#cargo-id5{
+    display: flex;
+    position: relative;
+    left: 388px;
+}
+
+.sobre{
+    display: flex;
+    position: relative;
+    top: 12vh;
+}
+#miniCurriculo{
+    display: flex;
+    position: relative;
+    left: 110px;
+    top: 7vh;
+}
+

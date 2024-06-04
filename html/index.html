@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section>
+            <h1>
+                Formulário
+            </h1>
+        </section>
+    </header>
+    <main>
+        <form id="dadosPessoais">
+            <fieldset class="form-um">
+                    <legend>Dados Pessoais</legend>
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input 
+                        type="text" 
+                        id="nome" 
+                        name="nome" 
+                        minlength="3"
+                        maxlength="20"
+                        required>
+                    </div>
+                    <div>
+                        <label for="endereco">Endereço:</label>
+                        <input 
+                        type="text" 
+                        name="endereco" 
+                        id="endereco"
+                        required>
+                    </div>
+                    <div>
+                        <label for="cidade">Cidade:</label>
+                        <input 
+                        type="text" 
+                        id="cidade" 
+                        name="cidade"
+                        required>
+                    </div>
+                    <div>
+                        <label for="estado">Estado:</label>
+
+                        <select 
+                        name="estado" 
+                        id="estado"
+                        required>
+
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espirito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
+            </fieldset>
+
+            <fieldset class="form-dois">
+                <legend>Dados profissionais</legend>
+                <div class="radio">
+                    <p id="naturezaCargo">Natureza do Cargo</p>
+                    <label for="gerencia" id="titulo-cargo">Gerência</label>
+                    <input
+                    id="cargo-id"
+                    type="radio" 
+                    name="cargo" 
+                    value="gerencia"
+                    checked required>
+
+                    <label for="financeiro" id="titulo-cargo2">Financeiro</label>
+                    <input 
+                    id="cargo-id2"
+                    type="radio" 
+                    name="cargo" 
+                    value="financeiro"
+                    required>
+
+                   <label for="recepcao" id="titulo-cargo3">Recepção</label>
+                    <input 
+                    id="titulo-cargo3"
+                    type="radio" 
+                    name="cargo" 
+                    value="recepcao"
+                    required> 
+
+                    <label for="administrativo" id="titulo-cargo4">Administrativo</label>
+                    <input
+                    id="cargo-id4"
+                    type="radio" 
+                    name="cargo" 
+                    value="administrativo"
+                    required>
+
+                    <label for="juridico" id="titulo-cargo5">Juridico</label>
+                    <input 
+                    id="cargo-id5"
+                    type="radio" 
+                    name="cargo" 
+                    value="juridico"
+                    required> 
+                </div>
+                <div>
+                    <p class="areaDeInteresse">Aréa de interesse</p>
+                    <div class="checkbox">
+                        <input 
+                        type="checkbox" 
+                        name="computacao" 
+                        id="computacao"
+                        >
+                        <label for="computacao">Computação</label>
+
+                        <input 
+                        type="checkbox" 
+                        name="biologia" 
+                        id="biologia"
+                        >
+                        <label for="biologia">Biologia</label>
+
+                        <input 
+                        type="checkbox" 
+                        name="meioAmbiente"  
+                        id="meioAmbiente"
+                        >
+                        <label for="meioAmbiente">Meio Ambiente</label>
+
+                        <input 
+                        type="checkbox" 
+                        name="engenharia"  
+                        id="engenharia"
+                        >
+                        <label for="engenharia">Engenharia</label>
+
+                        <input 
+                        type="checkbox" 
+                        name="historia" 
+                        id="historia">
+                        <label for="historia">História</label>
+                    </div>
+                </div>
+                    <div>
+                        <label for="miniCurriculo" class="sobre">Mini-curriculo:</label>
+                        <textarea name="miniCurriculo" id="miniCurriculo"></textarea>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <button type="submit" id="btn-enviar">Enviar</button>
+                    <button type="reset" id="btn-limpar">Limpar</button>
+                </div>
+            </form>
+        
+    </main>
+    <script src="/javaScript/index.js"></script>
+</body>
+</html>
